@@ -20,6 +20,8 @@ II. WLS note:
 
 	cd /mnt/c/ : Access volume C windows
 
+	note: Get any path from windows in linux just open Command Prompt in current direct then type wls and type pwd
+
 3. Open file in system WLS with Visual Code
 
 	https://www.youtube.com/watch?v=QeNjUfv0WGc&list=PLwJr0JSP7i8BRFtZ56gFmg6NVX0sMx980&index=5
