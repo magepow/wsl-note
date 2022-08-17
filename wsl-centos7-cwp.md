@@ -28,3 +28,31 @@ note: run this if update system linux
 	wget http://centos-webpanel.com/cwp-el7-latest
 	sh cwp-el7-latest
 ```
+
+5. Start Use
+
+```
+	service cwpsrv start
+	service cwpsrv status
+	service cwpsrv restart
+
+	Show User List:
+	Code: [Select]
+	# sh /usr/local/cwpsrv/htdocs/resources/scripts/list_users
+
+	To Reset mySQL Root Password:
+	Code: [Select]
+	# sh /usr/local/cwpsrv/htdocs/resources/scripts/mysql_pwd_reset
+
+	Update cwp:
+	Code: [Select]
+	# sh /usr/local/cwpsrv/htdocs/resources/scripts/update_cwp
+
+	List Domain:
+	Code: [Select]
+	# sh /usr/local/cwpsrv/htdocs/resources/scripts/list_domains
+
+	To Backup Users:
+	Code: [Select]
+	# sh /usr/local/cwpsrv/htdocs/resources/scripts/user_backup
+```
