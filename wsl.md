@@ -3,8 +3,10 @@ I. WLS commands:
 1. Access terminal wls or run program linux from Command Prompt
 
 	wsl --set-default-version 2: change use wsl2 as default
-	or set special instance
-	wsl --set-version [distro_name] [wsl_version_number]: convert distro to wsl2 if current run wsl1
+	
+	or set special instance this convert distro to wsl2 if current run wsl1
+	
+	wsl --set-version [distro_name] [wsl_version_number]
 
 	wls : access distro default of wsl to run command
 
