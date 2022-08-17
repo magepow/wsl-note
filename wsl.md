@@ -1,6 +1,6 @@
-I. WLS commands: 
+I. WSL commands: 
 
-1. Access terminal wls or run program linux from Command Prompt
+1. Access terminal wsl or run program linux from Command Prompt
 	```
 	wsl --set-default-version 2: change use wsl2 as default
 	
@@ -8,18 +8,18 @@ I. WLS commands:
 	
 	wsl --set-version [distro_name] [wsl_version_number]
 
-	wls : access distro default of wsl to run command
+	wsl : access distro default of wsl to run command
 
-	wls nano : open app nano in linux from Command Prompt windows
+	wsl nano : open app nano in linux from Command Prompt windows
 
 	Type \\wsl$Ubuntu in windows explore : access Ubuntu file from window
 	```
 2. WSL Manage
 	<!-- https://superuser.com/questions/1667969/create-wsl2-instance-from-vhdx -->
 	```
-	wls -l : show list wls installed in windows
+	wsl -l : show list wsl installed in windows
 	
-	wsl -l -v: show list wls install in windows and special wsl version
+	wsl -l -v: show list wsl install in windows and special wsl version
 	
 	wsl --export: command there to create a tar file backup of the installation which can then be wsl --import into the new computer. 
 	
