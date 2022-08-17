@@ -1,10 +1,12 @@
 I. Docs
 
+https://docs.microsoft.com/en-us/windows/wsl/
+https://github.com/microsoft/WSL
 Video: https://www.youtube.com/playlist?list=PLwJr0JSP7i8BRFtZ56gFmg6NVX0sMx980
 
 II. WLS note: 
 
-1. Access terminal wls or run program linu from Command Prompt
+1. Access terminal wls or run program linux from Command Prompt
 	wls -l : show list wls install in windows
 	wls : access Ubuntu command
 
