@@ -1,7 +1,7 @@
 I. WLS commands: 
 
 1. Access terminal wls or run program linux from Command Prompt
-
+	```
 	wsl --set-default-version 2: change use wsl2 as default
 	
 	or set special instance this convert distro to wsl2 if current run wsl1
@@ -13,18 +13,25 @@ I. WLS commands:
 	wls nano : open app nano in linux from Command Prompt windows
 
 	Type \\wsl$Ubuntu in windows explore : access Ubuntu file from window
-
+	```
 2. WSL Manage
 	<!-- https://superuser.com/questions/1667969/create-wsl2-instance-from-vhdx -->
+	```
 	wls -l : show list wls installed in windows
+	
 	wsl -l -v: show list wls install in windows and special wsl version
+	
 	wsl --export: command there to create a tar file backup of the installation which can then be wsl --import into the new computer. 
+	
 	wsl --import <Distribution Name> <Installation Folder> <Ubuntu WSL2 Image Tarball path> refer https://github.com/MicrosoftDocs/WSL/issues/412
+	
 	wsl -d centos7-cwp: run wsl special instance in wsl -l
+	
 	wsl --shutdown <Distribution Name> : stop wsl special instance
+	
 	wsl --unregister centos7-cwp:  remove centos7-cwp in wsl-l
 	https://github.com/microsoft/WSL/issues/4762
-
+	```
 
 
 3. Some case study
