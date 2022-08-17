@@ -21,7 +21,7 @@ I. WSL commands:
 	
 	wsl -l -v: show list wsl install in windows and special wsl version
 	
-	wsl --export: command there to create a tar file backup of the installation which can then be wsl --import into the new computer. 
+	wsl --export <Distro> <FileName>: command there to create a tar file backup of the installation which can then be wsl --import into the new computer. 
 	
 	wsl --import <Distribution Name> <Installation Folder> <Ubuntu WSL2 Image Tarball path> refer https://github.com/MicrosoftDocs/WSL/issues/412
 	
