@@ -12,7 +12,7 @@ II. WLS note:
 
 	wls nano : open app nano in linux from Command Prompt windows
 
-	Type \\wsl$Ubuntu in windows explore : acces Ubuntu file from window
+	Type \\wsl$Ubuntu in windows explore : access Ubuntu file from window
 
 2. Run command in terminal wls
 

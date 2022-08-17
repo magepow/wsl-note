@@ -10,7 +10,7 @@ I. WLS commands:
 
 	wls nano : open app nano in linux from Command Prompt windows
 
-	Type \\wsl$Ubuntu in windows explore : acces Ubuntu file from window
+	Type \\wsl$Ubuntu in windows explore : access Ubuntu file from window
 
 2. WSL Manage
 	<!-- https://superuser.com/questions/1667969/create-wsl2-instance-from-vhdx -->
