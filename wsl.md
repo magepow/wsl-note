@@ -23,6 +23,9 @@ I. WSL commands:
 	
 	wsl --export <Distro> <FileName>: command there to create a tar file backup of the installation which can then be wsl --import into the new computer. 
 	
+	Before start requirement install 7z here https://apps.microsoft.com/store/detail/7zip-file-manager-unofficial/9MZ81RMK8JFD
+	wsl --export CentOS7 - | 7z a -tgzip CentOS7AApanel.tar.gz -si
+	
 	wsl --import <Distribution Name> <Installation Folder> <Ubuntu WSL2 Image Tarball path> refer https://github.com/MicrosoftDocs/WSL/issues/412
 	
 	wsl -d centos7-cwp: run wsl special instance in wsl -l
