@@ -8,6 +8,7 @@ II. WSL note:
 
 1. Access terminal wsl or run program linux from Command Prompt
 	```
+	wsl -l -o : show list distro aviable in microsoft store
 	wsl -l : show list wsl install in windows
 	wsl : access Ubuntu command
 
